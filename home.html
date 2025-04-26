@@ -1,0 +1,217 @@
+<!-- Animated Video Banner -->
+<section id="home" style="padding: 0px; background: linear-gradient(135deg, #111, #232222, #142b1e);">
+ <div class="col-md-8 order-md-1" style="width: fit-content;">
+        <video autoplay loop muted class="w-100 rounded shadow">
+          <source src="videos/movie.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container text-white">
+      <h1><i class="fas fa-laptop-code me-2"></i> Software Development Solutions</h1>
+      <p><i class="fas fa-cogs me-2"></i> IT Services & Certified Trainings</p>
+      <a href="#explore" class="hero-button">Explore More <i class="fas fa-arrow-right ms-2"></i></a>
+    </div>
+  </section>
+
+  <!-- Company Intro Section (.hi) -->
+  <section class="hi">
+    <div class="container profile-section">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 col-md-6 col-12 d-flex justify-content-center" data-aos="fade-right">
+          <img src="Images/CEO.png" alt="ceo pic" class="profile-img img-fluid">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12" data-aos="fade-left">
+          <h2 class="text-lg-start text-center text-white">
+            Welcome To <span class="company-name">SAIM ENTERPRISES (SMC-PRIV)</span>
+          </h2>
+          <p class="desc text-lg-start text-center text-white">
+            <i class="fas fa-rocket"></i> Saim Enterprises is a dynamic IT company specializing in delivering innovative product and project-based solutions for business clients worldwide. We offer comprehensive IT training and development solutions, including CRM, HRMS, ERPMS, Data Center services, Mobile & Web Apps, UI/UX Design, Digital Marketing, Blockchain, and more.
+          </p>
+          <p class="desc text-lg-start text-center text-white">
+            <i class="fas fa-globe"></i> As a leading provider of desktop and web-based software solutions, we help our clients stay ahead of the competition by offering cutting-edge technology and exceptional services.
+          </p>
+          <p class="desc text-lg-start text-center text-white">
+            <i class="fas fa-user-tie"></i> <strong>Founder & CEO of Saim Enterprises</strong><br>
+            Saim brings over [X] years of experience and a proven track record in the industry. With a strong portfolio of successful projects and collaborations with well-known clients, Saim is committed to delivering innovative solutions that drive business growth.
+          </p>
+          <div class="text-lg-start text-center">
+            <a href="#about" class="btn more-btn btn-danger">More About Us <i class="fas fa-info-circle ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</section>
+</Section>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-dyZ88mC6Up2uqS4h/K+vZQz6ebQ4hi2giivQqCw53yXXyCEXFjU58b6hqV5W8YZfA3Jw7bkLezG7EzpUDrtfHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #fff;
+  }
+
+  .video-banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .video-banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  section.hero {
+    background: transparent;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+
+  .hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hero h1,
+  .hero p {
+    color: white;
+  }
+
+  .hero-button {
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .hero-button:hover {
+    background: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+    .hero-button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+    .hero-button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+
+  .hi {
+    background: linear-gradient(to right, #111, #232222, #142b1e);
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 60px 0;
+  }
+
+  .profile-section {
+    padding: 40px 20px;
+  }
+
+  .profile-img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-left: -15px;
+  }
+
+  .company-name {
+    color: #4ddb71;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .desc {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .more-btn {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .more-btn:hover {
+    background-color: #fff;
+    color: #b30000;
+    border: 1px solid #b30000;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    .profile-img {
+      max-width: 220px;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+    .section-title,
+    .desc {
+      text-align: center !important;
+    }
+    .company-name {
+      font-size: 1.3rem;
+    }
+  }
+</style>

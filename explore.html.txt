@@ -1,0 +1,7 @@
+<!-- Explore -->
+<section id="explore" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Explore More</h2>
+    <p class="text-center">Discover workshops, online certifications, community events and more. Stay ahead in the tech world with continuous learning opportunities at ZAI Systems.</p>
+  </div>
+</section>
